@@ -504,3 +504,8 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+.direction-ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}

@@ -83,7 +83,7 @@ function FeaturedWorks() {
                         group-hover:drop-shadow-[0_0_10px_rgba(36,215,232,0.4)]
                       "
                     >
-                      →
+                      ←
                     </span>
                   </a>
                 </li>

@@ -1,8 +1,8 @@
 export const aboutStudio = {
-  eyebrow: "About PRYDA+",
+  eyebrow: "+About PRYDA",
   title: "استوديو، وليس وكالة تقليدية.",
   description:
-    "PRYDA+ فريق صغير من الخبراء المخضرمين. لا توجد طبقات إدارة ولا تسليم للمهام — الأشخاص الذين يصممون موقعك هم أنفسهم من يبنونه.",
+    "+PRYDA فريق صغير من الخبراء المخضرمين. لا توجد طبقات إدارة ولا تسليم للمهام — الأشخاص الذين يصممون موقعك هم أنفسهم من يبنونه.",
   supportingPoints: [
     "تصميم وتطوير ضمن فريق واحد",
     "تواصل مباشر مع الأشخاص الذين يعملون على المشروع",
@@ -11,8 +11,8 @@ export const aboutStudio = {
 };
 
 export const advantagesSection = {
-  eyebrow: "Why PRYDA+",
-  title: "لماذا PRYDA+؟",
+  eyebrow: "?Why PRYDA",
+  title: "لماذا +PRYDA؟",
   description:
     "نبني التجربة حول التصميم، المنصة المناسبة، وسهولة الاستمرار بعد الإطلاق.",
 
