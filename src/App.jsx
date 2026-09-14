@@ -9,6 +9,7 @@ import AboutStudio from "./components/home/AboutStudio";
 import Advantages from "./components/home/Advantages";
 import Stats from "./components/home/Stats";
 import Process from "./components/home/Process";
+import Testimonials from "./components/home/Testimonials";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Advantages />
         <Stats />
         <Process />
+        <Testimonials />
       </main>
 
       <Footer />
