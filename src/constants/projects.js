@@ -8,6 +8,39 @@ export const projects = [
     id: 2,
     title: "Stock Artwork",
     href: "#stock-artwork",
+    caseStudy: {
+      title: "Stock Artwork",
+      subtitle: "هُوية بصرية مبنية حول الصور، وليس فقط التخطيط",
+      description:
+        "احتاج هذا المشروع إلى لغة تصميم مرنة بما يكفي لعرض مكتبة صور كبيرة ومتنوعة دون إحداث فوضى بصرية. قمنا ببناء نظام معرض وحداتي يتيح للأعمال الفنية أن تتصدر المشهد.",
+
+      /*
+       * بيانات مؤقتة لأن المعلومات الحقيقية غير متوفرة.
+       * يجب استبدالها قبل الإطلاق.
+       */
+      metadata: [
+        {
+          label: "Client",
+          value: "Placeholder Client",
+          temporary: true,
+        },
+        {
+          label: "Difficulty",
+          value: "Easy",
+          temporary: true,
+        },
+        {
+          label: "Time",
+          value: "3 hours",
+          temporary: true,
+        },
+        {
+          label: "Rating",
+          value: "★★★★★",
+          temporary: true,
+        },
+      ],
+    },
   },
   {
     id: 3,
