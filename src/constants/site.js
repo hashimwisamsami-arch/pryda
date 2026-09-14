@@ -109,3 +109,19 @@ export const processSection = {
     },
   ],
 };
+
+export const testimonialsSection = {
+  eyebrow: "Testimonials",
+  title: "ماذا يقول عملاؤنا؟",
+  description: "ستتم إضافة شهادات العملاء الموثقة هنا قبل إطلاق الموقع.",
+
+  items: [
+    {
+      id: "testimonial-placeholder",
+      quote: "[Client testimonial placeholder — insert a verified quote here]",
+      clientName: "[Client Name]",
+      company: "[Company]",
+      placeholder: true,
+    },
+  ],
+};
