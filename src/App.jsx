@@ -10,6 +10,8 @@ import Advantages from "./components/home/Advantages";
 import Stats from "./components/home/Stats";
 import Process from "./components/home/Process";
 import Testimonials from "./components/home/Testimonials";
+import FAQ from "./components/home/FAQ";
+import FinalCTA from "./components/home/FinalCTA";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Stats />
         <Process />
         <Testimonials />
+        <FAQ />
+        <FinalCTA />
       </main>
 
       <Footer />
