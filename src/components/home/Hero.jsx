@@ -227,46 +227,51 @@ function Hero() {
                     text-white/30
                   "
                 >
-                  PRYDA+
+                  +PRYDA
                 </div>
 
                 {/* Slide number */}
-                <div className="absolute bottom-5 left-5">
+                <div className="absolute bottom-5 left-5" dir="ltr">
                   <span className="text-small text-white/50">
+                    <span dir="rtl">المشروع</span>
+                    <span className="mx-1 text-white/20">•</span>
                     {String(activeSlide + 1).padStart(2, "0")}
                     {" / "}
                     {String(totalSlides).padStart(2, "0")}
                   </span>
                 </div>
               </div>
-
               {/* =========================
-                  CONTROLS
-              ========================== */}
+    CONTROLS
+========================== */}
               <div
                 className="
-                  absolute
-                  bottom-5
-                  right-5
-                  flex
-                  items-center
-                  gap-2
-                "
+    absolute
+    bottom-5
+    right-5
+    flex
+    items-center
+    gap-2
+  "
               >
-                <IconButton label="الصورة السابقة" onClick={goToPrevious}>
-                  <span aria-hidden="true">←</span>
+                <IconButton label="الصورة السابقة" onClick={goToNext}>
+                  <span aria-hidden="true" dir="ltr" className="inline-block">
+                    →
+                  </span>
                 </IconButton>
 
-                <IconButton label="الصورة التالية" onClick={goToNext}>
-                  <span aria-hidden="true">→</span>
+                <IconButton label="الصورة التالية" onClick={goToPrevious}>
+                  <span aria-hidden="true" dir="ltr" className="inline-block">
+                    ←
+                  </span>
                 </IconButton>
               </div>
             </div>
-
             {/* =========================
                 PAGINATION
             ========================== */}
             <div
+              dir="ltr"
               className="
                 flex
                 items-center

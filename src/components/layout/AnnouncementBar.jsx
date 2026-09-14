@@ -8,7 +8,7 @@ function AnnouncementBar() {
           </span>
 
           <p className="text-small tracking-wide">
-            أهلاً بكم في استوديو التصميم PRYDA+
+            أهلاً بكم في استوديو التصميم +PRYDA
           </p>
 
           <span aria-hidden="true" className="text-cyan-200/60">

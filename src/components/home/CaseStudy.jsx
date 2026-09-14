@@ -79,7 +79,7 @@ function CaseStudy() {
                     text-white/30
                   "
                 >
-                  PRYDA+
+                  +PRYDA
                 </span>
               </div>
 
@@ -133,7 +133,7 @@ function CaseStudy() {
                       )
                     }
                   >
-                    ←
+                    →
                   </IconButton>
 
                   <IconButton
@@ -144,7 +144,7 @@ function CaseStudy() {
                       )
                     }
                   >
-                    →
+                    ←
                   </IconButton>
                 </div>
               )}
