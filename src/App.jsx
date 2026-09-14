@@ -2,18 +2,6 @@ import AnnouncementBar from "./components/layout/AnnouncementBar";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
-import Hero from "./components/home/Hero";
-import FeaturedWorks from "./components/home/FeaturedWorks";
-import CaseStudy from "./components/home/CaseStudy";
-import Services from "./components/home/Services";
-import AboutStudio from "./components/home/AboutStudio";
-import Advantages from "./components/home/Advantages";
-import Stats from "./components/home/Stats";
-import Process from "./components/home/Process";
-import Testimonials from "./components/home/Testimonials";
-import FAQ from "./components/home/FAQ";
-import FinalCTA from "./components/home/FinalCTA";
-
 function App() {
   return (
     <>
@@ -21,28 +9,19 @@ function App() {
 
       <Navbar />
 
-      <main>
-        <Hero />
+      <main id="home">
+        <div className="container-site py-20">
+          <div className="glass-panel p-8 sm:p-12">
+            <p className="text-label">PRYDA+ DESIGN STUDIO</p>
 
-        <FeaturedWorks />
+            <h1 className="text-display mt-4">Global Layout</h1>
 
-        <CaseStudy />
-
-        <Services />
-
-        <AboutStudio />
-
-        <Advantages />
-
-        <Stats />
-
-        <Process />
-
-        <Testimonials />
-
-        <FAQ />
-
-        <FinalCTA />
+            <p className="text-body mt-5 max-w-2xl">
+              Announcement bar, navigation and footer are now ready. The website
+              sections will be built next.
+            </p>
+          </div>
+        </div>
       </main>
 
       <Footer />
