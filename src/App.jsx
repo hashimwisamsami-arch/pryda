@@ -4,6 +4,7 @@ import Footer from "./components/layout/Footer";
 import Hero from "./components/home/Hero";
 import FeaturedWorks from "./components/home/FeaturedWorks";
 import CaseStudy from "./components/home/CaseStudy";
+import Services from "./components/home/Services";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <FeaturedWorks />
         <CaseStudy />
+        <Services />
       </main>
 
       <Footer />
