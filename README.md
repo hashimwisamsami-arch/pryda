@@ -1,5 +1,7 @@
 PRYDA+ Design Studio
 
+live project:https://pryda.netlify.app/
+
 PRYDA+ هو مشروع موقع Portfolio لاستوديو تصميم وتطوير مواقع إلكترونية.
 المشروع يركز على تقديم هوية بصرية مستقبلية، وتجربة استخدام أنيقة، وتصميم Glassmorphism مبني على خلفية Dark Navy مع درجات Aqua / Cyan وإضاءات ناعمة.
 
