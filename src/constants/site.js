@@ -125,3 +125,35 @@ export const testimonialsSection = {
     },
   ],
 };
+
+export const faqSection = {
+  eyebrow: "FAQ",
+  title: "الأسئلة الشائعة",
+  description: "إجابات مختصرة عن أكثر الأسئلة شيوعًا حول المشاريع والعمل معنا.",
+  items: [
+    {
+      id: "project-timeline",
+      question: "كم يستغرق المشروع النموذجي من الوقت؟",
+      answer:
+        "تختلف المدة حسب نطاق المشروع — معظم المشاريع تستغرق من بضعة أسابيع إلى بضعة أشهر. سنقدم لك تقديرًا واضحًا بعد المكالمة الأولى.",
+    },
+    {
+      id: "existing-cms",
+      question: "هل تعملون مع أنظمة إدارة محتوى حالية؟",
+      answer:
+        "نعم. نعمل مع WordPress وJoomla وأنظمة أخرى، أو نبني المشروع من الصفر عندما يكون ذلك هو الخيار الأنسب.",
+    },
+    {
+      id: "ongoing-support",
+      question: "هل تقدمون خيارات دعم مستمر بعد الإطلاق؟",
+      answer: "نعم — تتوفر خطط دعم وصيانة لكل مشروع بعد الإطلاق.",
+    },
+  ],
+};
+export const finalCtaSection = {
+  eyebrow: "Start a Conversation",
+  title: "هل لديك مشروع في ذهنك؟",
+  description: "لنصمم شيئاً يبرز بالفعل.",
+  buttonLabel: "ابدأ المحادثة",
+  buttonHref: "#contact",
+};
