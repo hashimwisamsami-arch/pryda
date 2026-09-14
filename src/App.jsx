@@ -5,6 +5,7 @@ import Hero from "./components/home/Hero";
 import FeaturedWorks from "./components/home/FeaturedWorks";
 import CaseStudy from "./components/home/CaseStudy";
 import Services from "./components/home/Services";
+import AboutStudio from "./components/home/AboutStudio";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <FeaturedWorks />
         <CaseStudy />
         <Services />
+        <AboutStudio />
       </main>
 
       <Footer />
