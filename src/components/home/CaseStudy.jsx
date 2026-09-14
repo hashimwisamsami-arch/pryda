@@ -6,24 +6,9 @@ import IconButton from "../ui/IconButton";
 import Button from "../ui/Button";
 
 import { projects } from "../../constants/projects";
+import { getWallpapers } from "../../utils/wallpapers";
 
-const wallpaperModules = import.meta.glob("../../assets/WALLPAPER_*", {
-  eager: true,
-  query: "?url",
-  import: "default",
-});
-
-const wallpaperImages = Object.entries(wallpaperModules)
-  .sort(([pathA], [pathB]) =>
-    pathA.localeCompare(pathB, undefined, {
-      numeric: true,
-      sensitivity: "base",
-    }),
-  )
-  .map(([path, image]) => ({
-    path,
-    image,
-  }));
+const wallpaperImages = getWallpapers();
 
 const stockArtwork = projects.find(
   (project) => project.title === "Stock Artwork",
