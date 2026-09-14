@@ -7,6 +7,7 @@ import CaseStudy from "./components/home/CaseStudy";
 import Services from "./components/home/Services";
 import AboutStudio from "./components/home/AboutStudio";
 import Advantages from "./components/home/Advantages";
+import Stats from "./components/home/Stats";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Services />
         <AboutStudio />
         <Advantages />
+        <Stats />
       </main>
 
       <Footer />
