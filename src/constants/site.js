@@ -71,3 +71,41 @@ export const statsSection = {
     },
   ],
 };
+
+export const processSection = {
+  eyebrow: "How We Work",
+  title: "من الفكرة إلى الإطلاق.",
+  description:
+    "عملية واضحة تساعدنا على تحويل أهداف المشروع إلى تجربة رقمية مدروسة وقابلة للتطوير.",
+
+  steps: [
+    {
+      id: "discovery",
+      number: "01",
+      title: "Discovery",
+      description:
+        "نتعرف على جمهورك وأهدافك واحتياجات المشروع والقيود التي يجب أخذها في الحسبان.",
+    },
+    {
+      id: "design",
+      number: "02",
+      title: "Design",
+      description:
+        "نبني الاتجاه البصري والـ wireframes ونصقل التجربة بالتعاون معك حتى نصل إلى الشكل المناسب.",
+    },
+    {
+      id: "build",
+      number: "03",
+      title: "Build",
+      description:
+        "نحوّل التصميم إلى منتج فعلي باستخدام المنصة والتقنيات الأنسب لاحتياجات المشروع.",
+    },
+    {
+      id: "launch-support",
+      number: "04",
+      title: "Launch & Support",
+      description:
+        "نطلق الموقع ثم نواصل تقديم الدعم والعناية اللازمة مع نمو المشروع وتطوره.",
+    },
+  ],
+};

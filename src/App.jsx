@@ -8,6 +8,7 @@ import Services from "./components/home/Services";
 import AboutStudio from "./components/home/AboutStudio";
 import Advantages from "./components/home/Advantages";
 import Stats from "./components/home/Stats";
+import Process from "./components/home/Process";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <AboutStudio />
         <Advantages />
         <Stats />
+        <Process />
       </main>
 
       <Footer />
