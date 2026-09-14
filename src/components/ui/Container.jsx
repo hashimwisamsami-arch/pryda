@@ -1,5 +1,5 @@
-const Container = () => {
-  return <div>Container</div>;
-};
+function Container({ children, className = "" }) {
+  return <div className={`container-site ${className}`}>{children}</div>;
+}
 
 export default Container;
