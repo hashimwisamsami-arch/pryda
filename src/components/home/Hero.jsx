@@ -4,34 +4,9 @@ import Container from "../ui/Container";
 import GlassCard from "../ui/GlassCard";
 import Button from "../ui/Button";
 import IconButton from "../ui/IconButton";
+import { getWallpapers } from "../../utils/wallpapers";
 
-/*
- * Vite will automatically collect:
- * WALLPAPER_1
- * WALLPAPER_2
- * ...
- * WALLPAPER_9
- *
- * regardless of the image extension.
- */
-const wallpaperModules = import.meta.glob("../../assets/WALLPAPER_*", {
-  eager: true,
-  query: "?url",
-  import: "default",
-});
-
-const slides = Object.entries(wallpaperModules)
-  .sort(([pathA], [pathB]) =>
-    pathA.localeCompare(pathB, undefined, {
-      numeric: true,
-      sensitivity: "base",
-    }),
-  )
-  .slice(0, 5)
-  .map(([path, image]) => ({
-    id: path,
-    image,
-  }));
+const slides = getWallpapers(5);
 
 function Hero() {
   const [activeSlide, setActiveSlide] = useState(0);
