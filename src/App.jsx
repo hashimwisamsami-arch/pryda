@@ -6,6 +6,7 @@ import FeaturedWorks from "./components/home/FeaturedWorks";
 import CaseStudy from "./components/home/CaseStudy";
 import Services from "./components/home/Services";
 import AboutStudio from "./components/home/AboutStudio";
+import Advantages from "./components/home/Advantages";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <CaseStudy />
         <Services />
         <AboutStudio />
+        <Advantages />
       </main>
 
       <Footer />
