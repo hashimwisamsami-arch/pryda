@@ -40,3 +40,34 @@ export const advantagesSection = {
     },
   ],
 };
+
+export const statsSection = {
+  eyebrow: "PRYDA+ IN NUMBERS",
+  title: "نصنع فرقًا يمكن قياسه.",
+  description:
+    "إحصائياتنا الحالية مؤقتة حتى يتم اعتماد البيانات الفعلية والموثقة قبل إطلاق الموقع.",
+
+  items: [
+    {
+      id: "projects",
+      value: "100+",
+      label: "Projects",
+      description: "مشاريع تم تنفيذها",
+      temporary: true,
+    },
+    {
+      id: "years",
+      value: "16",
+      label: "Years",
+      description: "سنوات من الخبرة",
+      temporary: true,
+    },
+    {
+      id: "retention",
+      value: "201%",
+      label: "Client Retention",
+      description: "نسبة الاحتفاظ بالعملاء",
+      temporary: true,
+    },
+  ],
+};
