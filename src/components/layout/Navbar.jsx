@@ -14,19 +14,20 @@ function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 px-4 py-3 sm:px-6">
+      {/* الحاوية الرئيسية للـ Navbar */}
       <div
-        className="
+        className={`
           container-site
           relative
-          rounded-full
           border
           border-white/10
           bg-white/4
-          px-4
-          py-3
           shadow-glass
           backdrop-blur-xl
-        "
+          transition-all
+          duration-300
+          ${isMenuOpen ? "rounded-[2.5rem] p-6" : "rounded-full px-4 py-3"}
+        `}
       >
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
@@ -67,7 +68,7 @@ function Navbar() {
               onClick={() => setIsMenuOpen((prev) => !prev)}
             >
               <span
-                className={`text-lg transition-transform duration-300 ${
+                className={`text-lg transition-transform duration-300 block ${
                   isMenuOpen ? "rotate-45" : ""
                 }`}
               >
@@ -92,18 +93,8 @@ function Navbar() {
           `}
         >
           <div className="overflow-hidden">
-            <nav
-              aria-label="التنقل على الهاتف"
-              className="
-                rounded-2xl
-                border
-                border-white/10
-                bg-white/3
-                p-4
-                backdrop-blur-xl
-              "
-            >
-              <ul className="space-y-2">
+            <nav aria-label="التنقل على الهاتف" className="pt-2">
+              <ul className="space-y-1">
                 {navigationLinks.map((link) => (
                   <li key={link.href}>
                     <a
@@ -111,15 +102,16 @@ function Navbar() {
                       onClick={closeMenu}
                       className="
                         block
-                        rounded-xl
+                        rounded-full
                         px-4
-                        py-3
+                        py-2.5
+                        text-center
                         text-sm
-                        text-white/70
+                        text-white/80
                         transition
                         duration-300
-                        hover:bg-cyan-200/6
-                        hover:text-cyan-100
+                        hover:bg-white/10
+                        hover:text-white
                       "
                     >
                       {link.label}
