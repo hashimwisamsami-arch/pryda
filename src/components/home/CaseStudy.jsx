@@ -185,7 +185,7 @@ function CaseStudy() {
                     p-5
                     sm:p-6
                     ${
-                      index > 0
+                      index >= 0
                         ? "border-t border-white/5 sm:border-l sm:border-t-0"
                         : ""
                     }
