@@ -31,7 +31,7 @@ function Process() {
                     sm:p-8
                     lg:p-9
                     ${
-                      index > 0
+                      index >= 0
                         ? "border-t border-white/5 md:border-l md:border-t-0"
                         : ""
                     }
